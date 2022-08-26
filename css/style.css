@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1, h3, h4{
+    color: #1D2B4F;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    color: #9d9d9d;
+    font-size: 16px;
+}
+/* navigation bar */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    padding: 20px 50px;   
+    margin: 10px 30px;   
+}
+nav .nav-items{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    /* border: 2px solid red; */
+
+}
+.nav-item{
+    margin-left: 30px;
+}
+.logo img{
+    width: 100px;
+}
+nav .btn-1{
+    border: 2px solid transparent;
+    height: 55px;
+    width: 160px;
+    border-radius: 10px;
+    background: linear-gradient(white,white) padding-box, linear-gradient(180deg, #ABE5FC, #41ACF4 ) border-box;
+    color: #41ACF4;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fa-bars{
+    display: none;
+}
+
+/* hero section */
+
+.tagline{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 80px;
+}
+.tagline .headline{
+    flex: 1;
+}
+.tagline .img-1{
+    flex: 1;
+}
+.tagline img{
+    width: 100%;
+    height: auto;
+}
+.tagline h1{
+    font-size: 47px;
+}
+.tagline p{
+    margin-top: 30px;
+}
+.tagline .btn-2{
+    margin-top: 30px;
+    height: 55px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(119, 173, 239, 0.781);
+    background-color: #0796F2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* quality image section-2 */
+
+.quality-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    margin: 0px auto;
+    height: 100vh;
+}
+.quality-section .quality{
+    flex: 1;
+    padding: 0 50px;
+}
+.quality-section .headline{
+    flex: 1;
+}
+.quality-section img{
+    width: 100%;
+    height: auto;
+}
+.quality-section h1{
+    font-size: 47px;
+}
+.quality-section p{
+    margin-top: 30px;
+}
+.quality-section .btn-2{
+    margin-top: 30px;
+    height: 55px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(119, 173, 239, 0.781);
+    background-color: #0796F2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Support Section */
+
+
+.support-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    margin: 0px auto;
+    height: 100vh;
+}
+.support-section .pic-2{
+    flex: 1;
+    padding: 0 50px;
+}
+.support-section .support{
+    flex: 1;
+}
+.support-section img{
+    width: 100%;
+    height: auto;
+}
+.support-section h1{
+    font-size: 47px;
+}
+.support-section p{
+    margin-top: 30px;
+}
+.support-section .btn-2{
+    margin-top: 30px;
+    height: 55px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(119, 173, 239, 0.781);
+    background-color: #0796F2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* services Section */
+
+.service-tagline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    margin: 0px auto;
+    gap: 10%;
+}
+.service-tagline h1{
+    flex: 1;
+    font-size: 47px;
+}
+.service-tagline p{
+    flex: 1;
+    margin-top: 30px;
+}
+/* services section */
+.services .service-illustrations .hosting{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 5%;
+}
+.unlimited-hosting, .cloud-hosting, .wordpress-hosting{
+    flex-basis: 25%;
+    font-size: smaller;
+}
+.service-illustrations .cloud{
+    width: 18%;
+    height: auto;
+}
+.hosting, .others p{
+    font-size: small;
+    line-height: 2;
+}
+
+/* others section */
+
+.services .service-illustrations .others{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 5%;
+    position: relative;
+}
+.vps, .domain, .website-builder{
+    flex-basis: 25%;
+    font-size: smaller;
+}
+.hosting .cloud{
+    width: 20%;
+    height: auto;
+}
+
+/* Pricing section */
+#white{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 145px;
+    z-index: 1;
+    font-size: 45px;
+    font-weight: 600;
+}
+.pricing{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    height: max-content;
+    padding: 30px;
+    background: linear-gradient(to left top, #045FE9, #09C4F9);
+    
+}
+.starter-pack, .popular-package, .business-package{
+    height: 100vh;
+    flex-basis: 28%;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 140px;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.pricing h3{
+    margin-bottom: 20px;
+}
+.desc{
+    margin-bottom: 30px;
+    color: #9d9d9d;
+    font-weight: 300;
+}
+.pricing h4{
+    line-height: 3;
+}
+.details h4{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.fa-regular{
+    margin-right: 10px;
+    color: #20DAAA;
+}
+.price{
+    margin-top: 20%;
+    text-align: center;
+}
+.price h2{
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+.price span{
+    color: #9d9d9d;
+}
+.price  h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #9d9d9d;
+    margin-bottom: 5%;
+}
+.price .btn-1{
+    border: 2px solid transparent;
+    height: 55px;
+    width: 160px;
+    border-radius: 10px;
+    background: linear-gradient(white,white) padding-box, linear-gradient(180deg, #ABE5FC, #41ACF4 ) border-box;
+    color: #41ACF4;
+    font-size: 16px;
+    font-weight: 600;
+}
+.price .btn-2{
+    height: 55px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(119, 173, 239, 0.781);
+    background-color: #0796F2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* customer section */
+.customers{
+    width: 60vw;
+    margin: 50px auto;
+    text-align: center;
+}
+.customers h1{
+    margin-top: 20%;
+    margin-bottom: 3%;
+    font-size: 50px;
+    font-weight: 600;
+}
+.customers p{
+    text-align: center;
+}
+.feedback{
+    margin: 10px 10px;
+    padding: 0px 80px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.fbck-ceo{
+    padding: 30px;
+    margin-bottom: 15px;
+    border: 2px solid #EBEBEC;
+    border-radius: 10px;
+}
+.fbck-ceo p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.ceo{
+    display: flex;
+    align-items: center;
+}
+.ceo h3, h4{
+    margin-left: 20px;
+}
+.ceo h3{
+    font-size: 18px;
+}
+.ceo h4{
+    font-weight: 300;
+    font-size: 15px;
+}
+.ceo img{
+    width: 15%;
+}
+
+/* resigter section */
+.register{
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    height: 475px;
+    padding: 60px;
+    background: linear-gradient(to left top, #045FE9, #09C4F9);
+
+}
+.register h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+.reg p{
+    color: #fff;
+    margin: 20px auto;
+}
+
+.register .btn-3{
+    height: 55px;
+    width: 150px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+footer .footer-nav{
+    height: 30vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 5vw 3vw;
+}
+.footer-logo{
+    width: 20vw;
+}
+.footer-nav img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.footer-nav p{
+    font-size: small;
+    font-weight: 300;
+}
+footer .footer-list{
+    list-style-type: none;
+    margin-bottom: 10% ;
+}
+.social-media .fa-brands{
+    font-size: 30px;
+    margin: 10% 3%;
+}
+.fa-square-facebook{
+    color: #045FE9;
+}
+.fa-square-instagram{
+    color: #B22E7B;
+}
+.fa-square-youtube{
+    color: #F60000;
+}
+.fa-linkedin{
+    color: #007AB5;
+}
+
+
+
+/* media queries for responsiveness*/
+@media screen and (max-width:1205px){
+    .tagline, .support-section{
+        flex-direction: column-reverse;
+    }
+    .tagline img{
+        height: 30%;
+    }
+    .quality-section{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:950px){
+    
+    .fa-bars{
+        display: block;
+    }
+    nav .nav-items{
+        display: none;
+    }
+    .logo img{
+        width: 80px;
+    }
+    .service-tagline{
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width:700px){
+    .headline h1, 
+    .support-section h1, 
+    .service-tagline h1, 
+    .customers h1, 
+    .register h1{
+        font-size: 30px;
+    }
+    .footer-nav h2{
+        font-size: 15px;
+    }
+    .footer-logo p{
+        font-size: 10px;
+    }
+    .footer-list{
+        font-size: 10px;
+    }
+    .footer-logo img{
+        width: 70px;
+    }
+    body p{
+        font-size: 12px;
+    }
+    .feedback p{
+        font-size: 12px;
+    }
+    
+    .tagline .btn-2{
+        height: 40px;
+        width: 155px;
+        font-size: 14px;
+    }
+    .quality-section .btn-2{
+        height: 40px;
+        width: 155px;
+        font-size: 14px;
+    }
+    .support-section .btn-2{
+        height: 40px;
+        width: 155px;
+        font-size: 14px;
+    }
+    .register .btn-3{
+        height: 40px;
+        width: 155px;
+        font-size: 12px;
+    }
+    .support-section .pic-2 {
+        flex: 0.5;
+    }    
+    .support-section .support {
+        flex: 1.5;
+    }
+    .social-media .fa-brands {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:500px){
+    .hosting, .others, .footer-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .services .cloud{
+        width: 64px;
+        height: 64px;
+    }
+    .feedback, .register{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer .footer-nav {
+        height: 100vh;
+    }
+    .service-tagline{
+        padding: 10px 30px;
+    }
+    
+}
