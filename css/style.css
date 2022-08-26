@@ -222,7 +222,7 @@ nav .btn-1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     /* border: 2px solid red; */
     margin-bottom: 5%;
     position: relative;
@@ -257,7 +257,7 @@ nav .btn-1{
     
 }
 .starter-pack, .popular-package, .business-package{
-    height: 100vh;
+    height: max-content;
     flex-basis: 28%;
     background-color: #fff;
     margin-left: 10px;
