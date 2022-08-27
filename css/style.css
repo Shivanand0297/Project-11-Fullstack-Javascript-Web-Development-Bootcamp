@@ -183,7 +183,7 @@ nav .btn-1{
     justify-content: space-between;
     align-items: center;
     padding: 50px 80px;
-    margin: 0px auto;
+    margin: 10px auto;
     gap: 10%;
 }
 .service-tagline h1{
@@ -199,7 +199,7 @@ nav .btn-1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     /* border: 2px solid red; */
     margin-bottom: 5%;
 }
@@ -214,6 +214,9 @@ nav .btn-1{
 .hosting, .others p{
     font-size: small;
     line-height: 2;
+}
+.service{
+    margin: 10px;
 }
 
 /* others section */
@@ -461,6 +464,7 @@ footer .footer-list{
     }
     
 }
+
 @media screen and (max-width:950px){
     
     .fa-bars{
@@ -550,8 +554,18 @@ footer .footer-list{
     .footer .footer-nav {
         height: 100vh;
     }
-    .service-tagline{
-        padding: 10px 30px;
+  
+    .navigation, 
+    .tagline, 
+    .quality-section, 
+    .support-section, 
+    .service-tagline, 
+    .service-illustrations{
+        margin: 0px;
+        padding: 10px 20px;
+    }
+    .service{
+        margin: 10px auto;
     }
     
 }
